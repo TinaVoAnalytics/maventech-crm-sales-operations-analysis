@@ -66,19 +66,25 @@ These KPIs provide complementary views of sales volume, conversion, revenue gene
 
 ## Power BI Dashboard
 
-The report contains three analytical pages:
+The Power BI report provides three interactive analytical views designed to support executive monitoring, product and revenue analysis, and sales team performance evaluation.
 
 ### 1. Executive Sales Overview
 
 Provides a management-level view of overall sales performance, including key KPIs, monthly won revenue trends, product performance, regional performance, and detailed sales-agent results.
 
+![Executive Sales Overview](dashboard/01_Executive_Sales_Overview.png)
+
 ### 2. Revenue & Product Performance
 
-Examines revenue and conversion performance across products and regional offices. Interactive views allow users to compare different performance measures without navigating to another report page.
+Provides a deeper view of revenue, product, and conversion performance, allowing users to compare business outcomes across products and regional offices using interactive analytical features.
+
+![Revenue and Product Performance](dashboard/02_Revenue_Product_Performance.png)
 
 ### 3. Sales Team Performance
 
-Evaluates sales agents and managers using multiple performance measures to identify stronger results, performance gaps, and areas requiring further investigation.
+Evaluates sales-agent and management performance across multiple KPIs, helping users identify stronger results, performance gaps, and areas requiring further investigation.
+
+![Sales Team Performance](dashboard/03_Sales_Team_Performance.png)
 
 ## Advanced Power BI Features
 
