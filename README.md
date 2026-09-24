@@ -51,6 +51,29 @@ The Power BI data model integrates:
 
 These tables were connected through relationships to support analysis across opportunities, customers, products, sales representatives, managers, regional offices, and time.
 
+## Data Model
+
+The Power BI data model uses `sales_pipeline` as the central transactional table and connects it to supporting dimensions for accounts, products, sales teams, and dates. This structure enables consistent analysis across revenue, conversion, products, customers, sales representatives, regional offices, and time.
+
+The model includes four active many-to-one relationships:
+
+- `sales_pipeline[account]` → `accounts[account]`
+- `sales_pipeline[close_date]` → `Calendar[Date]`
+- `sales_pipeline[product]` → `products[product]`
+- `sales_pipeline[sales_agent]` → `sales_teams[sales_agent]`
+
+### Model View
+
+The model diagram below shows the central sales pipeline and its relationships with the supporting dimension tables.
+
+![Power BI Data Model](dashboard/04_Data_Model.png)
+
+### Relationship Details
+
+The relationship configuration provides an additional technical view of the active relationships and cardinality used in the Power BI model.
+
+![Power BI Relationship Details](dashboard/05_Relationship_Details.png)
+
 ## Key KPIs
 
 The dashboard evaluates several core sales performance measures, including:
