@@ -136,7 +136,7 @@ A focused walkthrough demonstrates how users can interact with the Power BI dash
 
 The walkthrough highlights key interactive capabilities, including slicers, the Reset Filters button, bookmarks, field parameters, dynamic metric selection, dynamic chart titles, drill-through analysis, conditional formatting, analytical matrices, and report-page tooltips.
 
-**Dashboard Walkthrough:** [Watch the Power BI Dashboard Walkthrough](PASTE-DASHBOARD-WALKTHROUGH-LINK-HERE)
+**Dashboard Walkthrough:** [Watch the Power BI Dashboard Walkthrough](https://youtu.be/W_fNCOfZLmk)
 
 ## Business Analysis Presentation
 
